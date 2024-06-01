@@ -1,0 +1,211 @@
+body {
+    font-family: 'Tw Cen MT', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #030303;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-top: 125px;
+    text-align: center;
+    padding-bottom: 125px; /* Add padding to the bottom of each section */
+    border-bottom: 2px solid #333; /* Add a bottom border for separation */
+}
+
+section:last-of-type {
+    border-bottom: none; /* Remove border from the last section */
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+section h2 i {
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+section h3 i {
+    color: #ffffff;
+    margin: 0 10px;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+
+section p {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #030303;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #2b2929;
+}
+
+.projects-details {
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+a {
+    color: #8d9497;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #030303;
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.download-btn i {
+    margin-right: 5px;
+}
+
+.download-btn:hover {
+    background-color:  #333;
+    text-decoration: none;
+}
+
+h3 .fa-windows,
+h3 .fa-html5,
+h3 .fa-css3-alt,
+h3 .fa-js,
+h3 .fa-trello {
+    transition: transform 0.5s, color 0.5s;
+}
+
+h3 .fa-windows:hover,
+h3 .fa-html5:hover,
+h3 .fa-css3-alt:hover,
+h3 .fa-js:hover,
+h3 .fa-trello:hover {
+    transform: scale(1.3);
+    color:#8d9497;
+}
+
+
+h3 .fa-database {
+    transition: transform 0.5s, color 0.5s;
+}
+
+h3 .fa-database:hover {
+    transform: scale(1.3);
+    color:#8d9497;
+}
+
+h3 .fa-globe {
+    transition: transform 0.5s, color 0.5s;
+}
+
+h3 .fa-globe:hover {
+    transform: scale(1.3);
+    color:#8d9497;
+}
+
+h3 .fa-file-powerpoint {
+    transition: transform 0.5s, color 0.5s;
+}
+
+h3 .fa-file-powerpoint:hover {
+    transform: scale(1.3);
+    color:#8d9497;
+}
+
+.top-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #030303;
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    margin-top: 100px;
+}
+
+.top-btn i {
+    margin-right: 5px;
+}
+
+.top-btn:hover {
+    background-color:  #333;
+    text-decoration: none;
+}
