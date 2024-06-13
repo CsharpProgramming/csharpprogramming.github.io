@@ -43,12 +43,12 @@ main {
 section {
     margin-top: 125px;
     text-align: center;
-    padding-bottom: 125px; /* Add padding to the bottom of each section */
-    border-bottom: 2px solid #333; /* Add a bottom border for separation */
+    padding-bottom: 125px; 
+    border-bottom: 2px solid #333;
 }
 
 section:last-of-type {
-    border-bottom: none; /* Remove border from the last section */
+    border-bottom: none;
 }
 
 section h2 {
@@ -72,9 +72,11 @@ section h3 i {
 }
 
 section p {
-    width: 80%;
-    margin-left: 10%;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
     font-size: 1.1em;
+    padding: 0 10px;
 }
 
 footer {
@@ -143,7 +145,10 @@ h3 .fa-windows,
 h3 .fa-html5,
 h3 .fa-css3-alt,
 h3 .fa-js,
-h3 .fa-trello {
+h3 .fa-trello,
+h3 .fa-database, 
+h3 .fa-globe,
+h3 .fa-file-powerpoint {
     transition: transform 0.5s, color 0.5s;
 }
 
@@ -151,34 +156,9 @@ h3 .fa-windows:hover,
 h3 .fa-html5:hover,
 h3 .fa-css3-alt:hover,
 h3 .fa-js:hover,
-h3 .fa-trello:hover {
-    transform: scale(1.3);
-    color:#8d9497;
-}
-
-
-h3 .fa-database {
-    transition: transform 0.5s, color 0.5s;
-}
-
-h3 .fa-database:hover {
-    transform: scale(1.3);
-    color:#8d9497;
-}
-
-h3 .fa-globe {
-    transition: transform 0.5s, color 0.5s;
-}
-
-h3 .fa-globe:hover {
-    transform: scale(1.3);
-    color:#8d9497;
-}
-
-h3 .fa-file-powerpoint {
-    transition: transform 0.5s, color 0.5s;
-}
-
+h3 .fa-trello:hover,
+h3 .fa-globe:hover,
+h3 .fa-database:hover,
 h3 .fa-file-powerpoint:hover {
     transform: scale(1.3);
     color:#8d9497;
@@ -208,4 +188,17 @@ h3 .fa-file-powerpoint:hover {
 .top-btn:hover {
     background-color:  #333;
     text-decoration: none;
+}
+
+/*Cool responsivness stuff*/
+@media (max-width: 768px) {
+    section p {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    section p {
+        max-width: 100%;
+    }
 }
